@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A product management case study exploring AI agent cataloging, accountable ownership, risk triage, and governance workflows.">
+  <title>AI Agent Catalog and Governance Console</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#main"><img src="assets/favicon.svg" width="32" height="32" alt="">Agent Console<span> / Product case study</span></a>
+    <nav aria-label="Main navigation"><a href="#demo">Interactive demo</a><a href="#screens">Screens</a><a href="https://github.com/SaurabhThakre/ai-agent-catalog-governance">GitHub ↗</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AI AGENT CATALOG AND GOVERNANCE</p>
+        <h1>Understand the agent.<br>Make the governance decision.</h1>
+        <p class="lede">A product management case study connecting agent discovery, accountable ownership, risk triage, and deliberate governance actions.</p>
+        <div class="actions"><a class="button primary" href="#demo">Explore Agent Search <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://bend-mirror-32622206.figma.site/" target="_blank" rel="noopener noreferrer">Open live prototype ↗</a></div>
+        <p class="project-note">Designed by Saurabh Thakre · Interactive Figma prototype · Sample enterprise data</p>
+      </div>
+      <a class="hero-preview" href="#demo" aria-label="Explore the Agent Search demo"><img src="assets/screenshots/01-agent-search.png" alt="Agent Search inventory showing business purpose, accountable owner, platform, status, risk, and recent activity" width="1440" height="1024"><span>Agent Search · a catalog with the context to act</span></a>
+    </section>
+    <section class="principles" aria-label="Product focus">
+      <article><span class="step">01</span><h2>Discover</h2><p>Find agents across platforms through a common inventory and business metadata.</p></article>
+      <article><span class="step">02</span><h2>Assess</h2><p>Review ownership, permissions, risk, and dependencies in the agent's context.</p></article>
+      <article><span class="step">03</span><h2>Govern</h2><p>Check action eligibility, require confirmation, and distinguish success from failure.</p></article>
+    </section>
+    <section id="demo" class="demo-section">
+      <div class="section-heading"><div><p class="eyebrow">INTERACTIVE PROTOTYPE</p><h2>Walk through the console</h2></div><a id="open-flow" href="https://www.figma.com/proto/LUSAcva35Ic0gjGkxc78Fn/Agent-Management-Console?node-id=8-82&amp;starting-point-node-id=8%3A82&amp;page-id=0%3A1&amp;scaling=scale-down-width" target="_blank" rel="noopener noreferrer">Open prototype in a new tab ↗</a></div>
+      <div class="flow-buttons" role="group" aria-label="Choose a prototype flow">
+        <button type="button" data-flow="search" aria-pressed="true">Agent Search</button>
+        <button type="button" data-flow="details" aria-pressed="false">Agent details</button>
+        <button type="button" data-flow="bulk" aria-pressed="false">Bulk governance</button>
+        <button type="button" data-flow="overview" aria-pressed="false">Overview</button>
+      </div>
+      <div class="demo-hint"><p id="flow-hint" aria-live="polite">Start with the inventory. Try High risk, open Claims Reconciliation, and explore its details.</p><button id="expand-demo" type="button">Expand demo ⤢</button></div>
+      <div id="prototype-shell" class="prototype-shell"><iframe id="prototype" title="Interactive AI Agent Management Console prototype — Agent Search" src="https://embed.figma.com/proto/LUSAcva35Ic0gjGkxc78Fn/Agent-Management-Console?node-id=8-82&amp;starting-point-node-id=8%3A82&amp;page-id=0%3A1&amp;scaling=scale-down-width&amp;content-scaling=fixed&amp;show-proto-sidebar=false&amp;embed-host=agent-catalog-portfolio" allowfullscreen loading="lazy"></iframe></div>
+      <p class="demo-note">The interactions run in Figma and use sample data. If the embed does not load, use the direct prototype link above. On a small screen, expand the demo for a closer view.</p>
+      <noscript><p>Flow shortcuts need JavaScript. The embedded Agent Search demo and direct prototype links remain available.</p></noscript>
+    </section>
+    <section id="screens" class="screens-section">
+      <div class="section-heading"><div><p class="eyebrow">DESIGN EVIDENCE</p><h2>From discovery to a confirmed outcome</h2></div><a href="docs/Agent_Management_Console_Report_Section.docx">Download the report section ↓</a></div>
+      <div class="screen-grid">
+        <figure><a href="assets/screenshots/02-high-risk-agents.png" target="_blank" rel="noopener noreferrer"><img src="assets/screenshots/02-high-risk-agents.png" alt="High-risk inventory filtering agents needing closer review" loading="lazy" width="1440" height="1024"></a><figcaption><span>Risk triage</span>Bring critical and high-risk agents into a focused review queue.</figcaption></figure>
+        <figure><a href="assets/screenshots/03-agent-details.png" target="_blank" rel="noopener noreferrer"><img src="assets/screenshots/03-agent-details.png" alt="Claims Reconciliation details beside the inventory, including ownership and operational context" loading="lazy" width="1440" height="1024"></a><figcaption><span>Context and accountability</span>Investigate an agent while retaining the catalog context.</figcaption></figure>
+        <figure><a href="assets/screenshots/04-bulk-block-preview.png" target="_blank" rel="noopener noreferrer"><img src="assets/screenshots/04-bulk-block-preview.png" alt="Bulk preview with three selected agents, two eligible for blocking, and one requiring manual control" loading="lazy"></a><figcaption><span>Eligibility before action</span>Review source-specific control limits before confirming a bulk change.</figcaption></figure>
+        <figure><a href="assets/screenshots/05-bulk-block-results.png" target="_blank" rel="noopener noreferrer"><img src="assets/screenshots/05-bulk-block-results.png" alt="Bulk results distinguishing a confirmed block, a provider timeout, and a skipped manual-control agent" loading="lazy"></a><figcaption><span>Honest completion states</span>Keep confirmed, failed, and skipped results distinct, with a retry path.</figcaption></figure>
+      </div>
+    </section>
+    <section class="case-study-link"><div><p class="eyebrow">PRODUCT THINKING</p><h2>Read the decisions behind the screens</h2><p>Problem framing, stewardship concepts, prioritization tradeoffs, validation plans, and relevance to the evolving data governance market.</p></div><a class="button primary" href="https://github.com/SaurabhThakre/ai-agent-catalog-governance#readme">Read the case study ↗</a></section>
+  </main>
+  <footer><p>Saurabh Thakre · AI Agent Catalog and Governance Console</p><p>Independent academic and portfolio project. Figma hosts the interactive prototype.</p></footer>
+</body>
+</html>
