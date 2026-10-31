@@ -4,7 +4,7 @@
 
 I designed and prototyped a console that helps governance teams discover AI agents, understand their business context and ownership, prioritize risk, and take deliberate governance actions. The central product surface is **Agent Search**: a searchable agent catalog connected to investigation and remediation workflows.
 
-[**Explore the live prototype →**](https://bend-mirror-32622206.figma.site/) · [Figma design](https://www.figma.com/design/LUSAcva35Ic0gjGkxc78Fn/Agent-Management-Console) · [Report with five screenshots](docs/Agent_Management_Console_Report_Section.docx)
+[**Live showcase →**](https://saurabhthakre.github.io/ai-agent-catalog-governance/) · [**Interactive Figma prototype →**](https://bend-mirror-32622206.figma.site/) · [Figma design](https://www.figma.com/design/LUSAcva35Ic0gjGkxc78Fn/Agent-Management-Console) · [Report with five screenshots](docs/Agent_Management_Console_Report_Section.docx)
 
 | Context | Details |
 | --- | --- |
