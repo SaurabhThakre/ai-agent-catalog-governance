@@ -4,7 +4,7 @@
 
 I designed and prototyped a console that helps governance teams discover AI agents, understand their business context and ownership, prioritize risk, and take deliberate governance actions. The central product surface is **Agent Search**: a searchable agent catalog connected to investigation and remediation workflows.
 
-[**Explore the live prototype →**](https://bend-mirror-32622206.figma.site/) · [Figma design](https://www.figma.com/design/LUSAcva35Ic0gjGkxc78Fn/Agent-Management-Console) · [Report with five screenshots](docs/Agent_Management_Console_Report_Section.docx) · [Industry research](docs/INDUSTRY_CONTEXT.md)
+[**Explore the live prototype →**](https://bend-mirror-32622206.figma.site/) · [Figma design](https://www.figma.com/design/LUSAcva35Ic0gjGkxc78Fn/Agent-Management-Console) · [Report with five screenshots](docs/Agent_Management_Console_Report_Section.docx)
 
 | Context | Details |
 | --- | --- |
@@ -121,18 +121,6 @@ The simulated result distinguishes one confirmed block, one provider timeout, an
 - Unresolved partial failures, time to recovery, and manual follow-up backlog.
 - Completeness of the evidence associated with a governance decision.
 
-## Relevance to the data governance market
-
-Research reviewed **31 October 2026**. These connections are my product interpretation; this project is independent of the vendors below.
-
-| Company | Current direction in official materials | Relevance to this case study |
-| --- | --- | --- |
-| **Alation** | Its September 2026 AIOS announcement describes a cross-platform AI registry and agent lineage tied to underlying data. [Official announcement](https://www.alation.com/news-and-press/alation-launches-aios-tm-expansion-with-six-products-that-accelerate-ai-transformation/) | Cataloging agents with business context and ownership is the foundation; live agent-to-data lineage is a logical next extension. |
-| **Collibra** | AI Command Center brings together a consolidated registry, governance health, and operational agent signals. [Official documentation](https://productresources.collibra.com/docs/release-notes/Content/AICommandCenter/co_aicc-about.htm) | A governance operator needs to move from estate-level visibility into an accountable, actionable agent record. |
-| **Informatica** | Its governance blueprint emphasizes enterprise inventory, metadata, classification, and granular lineage through IDMC and Cloud Data Governance and Catalog. [Official blueprint](https://www.informatica.com/resources/articles/ai-governance-blueprint-agentic-enterprise.html) | EDC/CDGC-style catalog expertise can inform agent metadata, stewardship, traceability, and trustworthy governance workflows. |
-
-See [industry context and proposed extensions](docs/INDUSTRY_CONTEXT.md) for source dates, preview-status qualifications, and the boundary between demonstrated UX and future capabilities.
-
 ## Repository contents
 
 ```text
@@ -141,9 +129,7 @@ assets/app.js                   Flow shortcuts and fullscreen behavior
 assets/styles.css               Responsive showcase styling
 assets/favicon.svg              Showcase icon
 assets/screenshots/             Five screenshots used in this case study
-docs/INDUSTRY_CONTEXT.md         Current market research and product implications
 docs/PRODUCT_BRIEF.md            Scope, metadata model, prioritization, and validation
-docs/PORTFOLIO_SUMMARY.md        Evidence-based CV and interview talking points
 docs/Agent_Management_Console_Report_Section.docx
 ```
 
@@ -162,12 +148,6 @@ Then open `http://localhost:8000`. An internet connection and access to the publ
 ### Maintain the demo
 
 Update the file key and flow node IDs in `assets/app.js` when replacing the prototype. Also update the initial iframe and external link in `index.html`, the live prototype links, and the five screenshots. The static files can be hosted by GitHub Pages or another static host.
-
-## Portfolio summary
-
-> Designed and prototyped an AI agent catalog and governance console, translating metadata discovery, accountable ownership, risk triage, and lifecycle needs into searchable inventories, contextual agent profiles, and eligibility-aware bulk actions with confirmation and recovery paths.
-
-[Additional CV and interview talking points](docs/PORTFOLIO_SUMMARY.md)
 
 ---
 
